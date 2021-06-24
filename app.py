@@ -1,6 +1,7 @@
 from aiogram import Bot, Dispatcher, executor, types
 import requests
 tok = ''
+domen = 'http://127.0.0.1:80/users/'
 bot = Bot(token = tok)
 dp = Dispatcher(bot)
 @dp.message_handler(commands=['subscribe'])
